@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import './Navbar.css';
-import './index.css';
+import './style.css';
+import './style-mobile.css';
 
 class Navbar extends React.Component {
     render() {
         return(
-            <div className="container">
-                <div className="navbar">
-                    <h1 className="navItem navTitle">Solus Victus</h1>
-                    <Link to="/" className="navItem-right navLink">Home</Link>
-                    <Link to="/about" className="navItem-right navLink">About</Link>
-                </div>
-            </div>
+            <nav className="navbar">
+			    <h1 className="nav-item nav-title">Solusia</h1>
+			    <Link to="/organization" className="nav-item nav-link">Organization</Link>
+			    <Link to="/about" className="nav-item nav-link">About</Link>
+                <Link to="/" className="nav-item nav-link">Home</Link>
+		    </nav>
         )
     }
 }

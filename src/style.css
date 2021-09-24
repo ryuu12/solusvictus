@@ -1,0 +1,294 @@
+
+
+.navbar {
+  padding: 30px;
+  background-color: #1E3163;
+}
+
+.nav-item {
+  font-size: 24px;
+  color: white;
+}
+
+.nav-title {
+  font-size: 48px;
+  font-weight: 600;
+  display: inline;
+}
+
+.nav-link {
+  float: right;
+  color: white;
+  padding: 10px;
+}
+
+#Banner, #About {
+  color: white;
+  background-color: #1E3163;
+}
+
+.banner-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.banner-subtitle {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row-left{
+  justify-content: left
+}
+
+.col-text {
+  padding: 30px;
+}
+
+.col-img {
+  padding: 30px;
+}
+
+.color-blue {
+  color: #1E3163;
+}
+
+.col {
+  flex-basis: 45%;
+}
+
+.col-xl {
+  flex-basis: 100%;
+}
+
+.col-s {
+  flex-basis: 20%;
+  margin-right: 30px;
+}
+
+.col-text-right {
+  text-align: right;
+}
+
+.banner-img {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.banner-img-2{
+  border-radius: 30px;
+  width: 85%;
+  height: auto;
+}
+
+.keep-img {
+  width: 40%;
+  height: auto;
+  margin: 40px;
+}
+
+.keep-title {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.keep-subtitle {
+  font-size: 24px;
+  text-align: right;
+}
+
+#Use {
+  background-image: linear-gradient(0deg, rgba(30, 49, 99, 0.71), rgba(30, 49, 99, 0.71)), url("https://cdn.discordapp.com/attachments/616638914530246656/888797965836247101/20.-Who-Uses-Coworking-Spaces-Hereu2019s-Everything-to-Know.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.use-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.use-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #1E3163;
+}
+
+.footer-col {
+  line-height: 0.2;
+}
+
+.footer-title {
+  font-size: 48px;
+  color: white;
+  font-weight: 600;
+}
+
+.footer-subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+}
+
+.footer-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.border-line {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.copyright {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+#User {
+  background-color: white;
+}
+
+.user-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.user-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.user-logo {
+  float: left;
+  width: 20%;
+  height: auto;
+  margin: 30px;
+}
+
+#Organization {
+  background-image: linear-gradient(0deg, rgba(30, 49, 99, 0.71), rgba(30, 49, 99, 0.71)), url("https://media.discordapp.net/attachments/616638914530246656/888760634643197952/istockphoto-962449026-170667a.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 60px 30px 60px 30px;
+  color: white;
+}
+
+.org-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.org-subtitle {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+#List {
+  padding: 30px;
+}
+
+.org-card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.org-card-content {
+  padding: 10px;
+}
+
+.org-card {
+  background-color:  #F1F1F1;
+  box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.org-card-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.org-card-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#Details {
+  padding: 30px;
+  background: linear-gradient(180deg, #8CE3E3 0%, rgba(140, 227, 227, 0) 100%);
+}
+
+.org-img {
+  float: left;
+  width: 20%;
+  height: auto;
+  margin: 30px;
+}
+
+.details-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.details-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#Role {
+  padding: 60px;
+}
+
+.role-card-content {
+  padding: 15px;
+}
+
+.role-card {
+  background-color:  #F1F1F1;
+  box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.role-card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.role-card-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0 10px 0;
+}
+
+.apply-btn {
+  padding: 5px 70px 5px 70px;
+  background-color: #1E3163;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+
+.apply-btn:hover{
+  background-color: #2D46B9;
+}
