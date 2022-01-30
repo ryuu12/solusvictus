@@ -4,7 +4,7 @@
   }
 
   .nav-item {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .nav-title {
@@ -73,22 +73,21 @@
     display: none;
   }
 
-  .use-title {
+  .user-title {
     font-size: 36px;
   }
 
-  .use-subtitle {
+  .user-subtitle {
     font-size: 18px;
   }
 
-  footer .col-text-right {
+  footer, .col-text-right {
     text-align: left;
   }
 
   .use-title {
     font-size: 36px;
     font-weight: 600;
-    text-align: center;
   }
 
   .use-subtitle {
